@@ -1,0 +1,172 @@
+.header1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 15px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding and margins are included in width */
+}
+
+/* Left Section */
+.header1_left {
+  display: flex;
+
+}
+
+.header1_logo img {
+  max-width: 80px; /* Reduce logo size for responsiveness */ 
+  margin-right: 15px;
+}
+
+.header1_search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.header1_search input {
+  background-color: #eef3f8;
+  border: 0px;
+  outline: 0;
+  min-width: 400px;
+  height: 40px;
+  border-radius: 4px;
+  padding-right: 35px; /* Ensure space for the search icon */
+}
+
+.header1_search .search_icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Adjust icon sizes */
+.header1_search svg {
+  color: #23A585 !important;
+  font-size: 25px !important;
+}
+
+/* Right Section */
+.header1_right {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+
+}
+
+.header1_options{
+  display: flex;
+  gap: 3px;
+  color: rgb(118, 112, 112);
+  font-size: 15px !important;
+  cursor: pointer;
+}
+
+.header1_options:first-child{
+  background-color: #4BAC74;
+  border-radius: 100px;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.header1_options:hover{
+  background-color: #4BAC74;
+  border-radius: 50px;
+  /* border-width: 100%; */
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.header1_avatar {
+  display: flex;
+  gap: 5px;
+  align-items: center; /* Center the avatar and title */
+ 
+}
+
+.avatar_title {
+  display: flex;
+  gap: 5px;
+  color: rgb(118, 112, 112);
+  font-size: 18px !important;
+  cursor: pointer;
+}
+
+
+.header1_right .MuiAvatar-root {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+/* Media Queries for responsiveness */
+
+/* For tablet devices (screen width between 768px and 1024px) */
+@media only screen and (max-width: 1024px) {
+  .header1 {
+      flex-direction: column; /* Stack vertically on smaller screens */
+      align-items: flex-start;
+  }
+
+  .header1_left, .header1_right {
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 10px;
+  }
+
+  .header1_search input {
+      min-width: 100%; /* Ensure search bar takes full width on smaller screens */
+      width: 100%;
+  }
+
+  .header1_right {
+      justify-content: space-evenly; /* Space out the icons evenly */
+  }
+}
+
+/* For mobile devices (screen width below 768px) */
+@media only screen and (max-width: 768px) {
+  .header1_search input {
+      min-width: 200px; /* Make the search bar smaller on mobile devices */
+  }
+
+  .header1_logo img {
+      max-width: 60px; /* Further reduce logo size */
+  }
+
+  .header1_right {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+  }
+
+  .header1_right .MuiAvatar-root {
+      width: 30px;
+      height: 30px; /* Make avatar smaller for mobile screens */
+  }
+
+  .header1_search svg {
+      font-size: 20px !important; /* Make search icon smaller */
+  }
+     
+}
+
+/* For very small screens (below 576px) */
+@media only screen and (max-width: 576px) {
+  .header1_search input {
+      min-width: 150px;
+  }
+
+  .header1_right {
+      flex-wrap: wrap; /* Wrap icons and avatar if space is constrained */
+      gap: 10px;
+  }
+}
+
+  
+

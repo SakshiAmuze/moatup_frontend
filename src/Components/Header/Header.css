@@ -1,0 +1,41 @@
+/* Centering the logo and form container */
+.center-logo-navbar {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .frontpage {
+    display: flex;
+    justify-content: center;
+  }
+
+.me-right,
+.nav-link {
+    color: burlywood;
+    margin: 8px !important;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    translate: 0px -4px 0px; 
+    transition: all 0.2s;
+    color: crimson;
+}
+
+/* Responsive */ 
+@media screen and (max-width:7680px) {
+    .portfolio-image {
+      margin: 2px;
+    }
+    .logo {
+        margin-left: 32px;
+        margin-bottom: 18px;
+        width: 157px;
+
+      }
+}
