@@ -1,0 +1,155 @@
+.home-investor{
+
+    position: absolute;
+    width: 635px;
+    height: 276px;
+    left: 500px;
+    top: 130px;
+    
+    background: #ffffff;
+    border-radius: 20px;
+}
+.title{
+    position: absolute;
+width: 122px;
+height: 26px;
+left: 50px;
+top: 22px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+
+/* primery */
+color: #009E94;
+}
+.form-select1{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 258px;
+    height: 41px;
+    left: 50px;
+    top: 70px;
+    
+    background: #FFFFFF;
+    opacity: 0.6;
+    /* Textblack */
+    border: 1px solid #002F2C;
+    border-radius: 10px;
+}
+.form-select2{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 258px;
+height: 41px;
+left: 340px;
+top: 70px;
+
+background: #FFFFFF;
+opacity: 0.6;
+/* Textblack */
+border: 1px solid #002F2C;
+border-radius: 10px;
+}
+.form-select3{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 258px;
+height: 41px;
+left: 50px;
+top: 125px;
+
+background: #FFFFFF;
+opacity: 0.6;
+/* Textblack */
+border: 1px solid #002F2C;
+border-radius: 10px;
+}
+.form-select4{
+
+box-sizing: border-box;
+
+position: absolute;
+width: 258px;
+height: 41px;
+left: 340px;
+top: 125px;
+
+background: #FFFFFF;
+opacity: 0.6;
+/* Textblack */
+border: 1px solid #002F2C;
+border-radius: 10px;
+}
+.investortitle{
+
+position: absolute;
+width: 105px;
+height: 24px;
+left: 416px;
+top: 202px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+/* Grey2 */
+color: #C0C0C0;
+}
+.submit-btn{
+
+
+    position: absolute;
+    width: 105px;
+    height: 36px;
+    left: 490px;
+    top: 205px;
+    background: linear-gradient(97.64deg, #009E94 0%, #74B462 89.08%);
+    border-radius: 10px;
+}
+.save{
+
+position: relative;
+width: 36px;
+height: 21px;
+left: 30px;
+top: 3px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+}
+.contactselected{
+
+position: absolute;
+width: 132px;
+height: 18px;
+left: 335px;
+top: 210px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+color: #000000;
+}
