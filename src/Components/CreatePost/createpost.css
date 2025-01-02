@@ -1,0 +1,112 @@
+/* Container styles */
+.create-post-container {
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .create-post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .create-post-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #23A585;
+  }
+  
+  .audience-selector {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    border: 1px solid #7e8484;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .audience-selector i {
+    margin-right: 5px;
+  }
+  
+  /* Textarea styles */
+  .post-input {
+    width: 100%;
+    min-height: 100px;
+    resize: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  /* Actions section */
+  .post-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .action-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .action-item i {
+    margin-right: 8px;
+    font-size: 16px;
+  }
+  
+  .action-item:hover {
+    color: #23A585 ;
+  }
+  
+  /* Post button */
+  .post-button {
+    background: linear-gradient(45deg, #009E94, #23A585 );
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  .post-button:hover {
+    background: linear-gradient(45deg, #009E94, #23A585 );
+  }
+  
+  /* Responsiveness */
+  @media screen and (max-width: 600px) {
+    .create-post-container {
+      padding: 15px;
+    }
+  
+    .post-actions {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .post-button {
+      margin: 15px 0 0 auto;
+    }
+  }
+  

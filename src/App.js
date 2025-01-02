@@ -4,8 +4,9 @@ import Header from './Components/Header/Header'
 import Header1 from './Components/Header1'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Sidebar from './Components/Sidebar/Sidebar';
 
+import CreatePost from './Components/CreatePost/createpost.js';
+import Sidebar from './Components/Sidebar/Sidebar.js';
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
     <Header1></Header1>
  <Sidebar></Sidebar>
     {/* <Header1></Header1> */}
-
+    <CreatePost />
     <Outlet></Outlet>
     <ToastContainer /> 
     </>
