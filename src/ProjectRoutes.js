@@ -10,6 +10,7 @@ import Home from "./Components/Home";
 import LogIn from "./Components/LoginForm/LogIn.js";
 import MyNetwork from "./Components/MyNetwork.js";
 import Homeinvestor from "./Components/Home/Homeinvestor.js";
+import Calendar from "./Components/Calendar/Calendar.js";
 
 
 const router = createBrowserRouter([
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
       { path: "/mynetwork", element: <MyNetwork /> },
       { path: "/selectinvestor", element: <Homeinvestor /> },
       // { path: "/messages", element: <Messages /> },
-      // { path: "/notifications", element: <Notifications /> },
+      { path: "/calendar", element: <Calendar/> },
       { path: "/login", element: <LogIn /> },
     ],
   },
